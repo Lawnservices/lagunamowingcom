@@ -38,6 +38,11 @@ text-align: center;
 /* fin main */
 /* section gallery */
 #gallery {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 1000px; /* espacio mínimo mientras cargan las imágenes */
+}
+#gallery {
   max-width: 1600px;
   margin: 24px auto;  
   display: grid;
@@ -46,7 +51,7 @@ text-align: center;
 }
 
 #gallery img {
-  height:360;
+  height:360px;
   border-radius:0.2rem;
   max-width: 98%;
   margin: 24px auto;
