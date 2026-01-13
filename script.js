@@ -1,13 +1,13 @@
-const mas = document.getElementById('caveza');
+const mas = document.querySelector('.navbar');
 
 document.addEventListener('scroll', () => {
   var scroll_position = window.scrollY;
   if(scroll_position > 200){
-    caveza.style.backgroundColor = '#003349';
-    caveza.style.color = '#fff';
+    nanvar.style.backgroundColor = '#003349';
+    nanvar.style.color = '#fff';
   } else {
-    caveza.style.backgroundColor = '#f6f6f6';
-    caveza.style.color = '#000';
+    nanvar.style.backgroundColor = '#f6f6f6';
+    nanvar.style.color = '#000';
 
   }
 });

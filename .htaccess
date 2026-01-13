@@ -1,0 +1,9 @@
+# Activa el módulo de reescritura
+RewriteEngine On
+
+# Redirige cualquier /index.html hacia /
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+
+# Asegura que index.html se cargue por defecto
+DirectoryIndex index.html
