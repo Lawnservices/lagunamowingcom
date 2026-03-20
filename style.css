@@ -18,7 +18,11 @@ padding: 16px;
   padding: 8px 18px;
   text-decoration:none;
   color: #000;
-   
+  transition: 1s ease-in-out; 
+}
+.navbar nav a:hover{
+color: #fff;
+background-color: #333; 
 }
 html{
   scroll-behavior: smooth;
